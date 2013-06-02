@@ -11,14 +11,35 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 '''
 
 '''
-Purpose of the script:
-Connect to MongoDB and get a handle for mydb1.
-The following collections will be created in mydb1:
+-----------------------
+Purposes of the script:
+-----------------------
+
+1.) Demonstrate the use of document-orientated databases in the field of epidemiology,
+that is, building up data structures that can easily be accessed/evaluated by means of
+widely acknowledged methods for processing JSON-like data structures. Analyzing
+big data often takes advantage of applying databases other than relational data models.
+2.) Example script for using Pymongo.
+3.) Example for MongoDB's integrated feature of referencing data in different collections
+using DBRef.
+
+
+The following database collections will be created in mydb1:
 subjects
 additional_medication
 sulfur
 fineparticles
 rescuemed
+
+++++++++++++++++++++++++++++++++++++++++++++++++
+Note: From these artificially created test data
+NO scientific conclusions can be drawn. The
+data created by running this script is for
+demonstration purposes only. Similarities
+between these test data and real world
+investigations are not intended but can
+occur.
+++++++++++++++++++++++++++++++++++++++++++++++++
 
 -------------------------
 Epidemiological scenario:
