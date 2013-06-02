@@ -1,0 +1,55 @@
+{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "_id": {
+        "$oid": "51a3a9d1356ecd0b59403827"
+    }, 
+    "fineparticles": 9, 
+    "rescuemed_per_day": [
+        {
+            "Day": 0, 
+            "ref": [
+                {
+                    "$id": "region3_radius20_2", 
+                    "$ref": "additional_medication"
+                }
+            ], 
+            "PatientId": "region3_radius20_2", 
+            "Dose": 90
+        }
+        {
+            "Day": 0, 
+            "ref": [
+                {
+                    "$id": "region3_radius20_3", 
+                    "$ref": "additional_medication"
+                }
+            ], 
+            "PatientId": "region3_radius20_3", 
+            "Dose": 90
+        }, 
+        {
+            "Day": 0, 
+            "ref": [
+                {
+                    "$id": "region3_radius20_4", 
+                    "$ref": "additional_medication"
+                }
+            ], 
+            "PatientId": "region3_radius20_4", 
+            "Dose": 180
+        }, 
+...
+
