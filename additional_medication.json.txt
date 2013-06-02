@@ -1,0 +1,22 @@
+{
+    "Dose": 25, 
+    "_id": "region1_radius10_1000_0", 
+    "PatientId": "region1_radius10_1000", 
+    "Drug": "A", 
+    "Day": 0
+}
+{
+    "Dose": 25, 
+    "_id": "region1_radius10_1000_14", 
+    "PatientId": "region1_radius10_1000", 
+    "Drug": "A", 
+    "Day": 14
+}
+{
+    "Dose": 25, 
+    "_id": "region1_radius10_1000_7", 
+    "PatientId": "region1_radius10_1000", 
+    "Drug": "A", 
+    "Day": 7
+}
+

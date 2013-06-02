@@ -1,0 +1,248 @@
+{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "Region": "region3", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b59474189"
+    }, 
+    "Radius": "radius20", 
+    "Day": 0
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 30.4
+        }, 
+        {
+            "mid": 33.44
+        }, 
+        {
+            "eve": 39.52
+        }, 
+        {
+            "triplemean": 34.45333333333333
+        }
+    ], 
+    "Region": "region2", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b5947418a"
+    }, 
+    "Radius": "radius20", 
+    "Day": 0
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 26.6
+        }, 
+        {
+            "mid": 29.26
+        }, 
+        {
+            "eve": 34.58
+        }, 
+        {
+            "triplemean": 30.14666666666666
+        }
+    ], 
+    "Region": "region1", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b5947418b"
+    }, 
+    "Radius": "radius20", 
+    "Day": 0
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 41.8
+        }, 
+        {
+            "mid": 45.98
+        }, 
+        {
+            "eve": 54.34
+        }, 
+        {
+            "triplemean": 47.37333333333333
+        }
+    ], 
+    "Region": "region5", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b5947418c"
+    }, 
+    "Radius": "radius20", 
+    "Day": 0
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 38
+        }, 
+        {
+            "mid": 41.8
+        }, 
+        {
+            "eve": 49.4
+        }, 
+            "mid": 16.17
+        }, 
+        {
+            "eve": 19.11
+        }, 
+        {
+            "triplemean": 16.66
+        }
+    ], 
+    "Region": "region1", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b5947426c"
+    }, 
+    "Radius": "radius30", 
+    "Day": 5
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 23.1
+        }, 
+        {
+            "mid": 25.41
+        }, 
+        {
+            "eve": 30.03
+        }, 
+        {
+            "triplemean": 26.18
+        }
+    ], 
+    "Region": "region5", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b5947426d"
+    }, 
+    "Radius": "radius30", 
+    "Day": 5
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 21
+        }, 
+        {
+            "mid": 23.1
+        }, 
+        {
+            "eve": 27.3
+        }, 
+        {
+            "triplemean": 23.8
+        }
+    ], 
+    "Region": "region4", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b5947426e"
+    }, 
+    "Radius": "radius30", 
+    "Day": 5
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 17.1
+        }, 
+        {
+            "mid": 18.81
+        }, 
+        {
+            "eve": 22.23
+        }, 
+        {
+            "triplemean": 19.38
+        }
+    ], 
+    "Region": "region3", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b5947426f"
+    }, 
+    "Radius": "radius30", 
+    "Day": 6
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 15.2
+        }, 
+        {
+            "mid": 16.72
+        }, 
+        {
+            "eve": 19.76
+        }, 
+        {
+            "triplemean": 17.22666666666666
+        }
+    ], 
+    "Region": "region2", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b59474270"
+    }, 
+    "Radius": "radius30", 
+    "Day": 6
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 13.3
+        }, 
+        {
+            "mid": 14.63
+        }, 
+        {
+            "eve": 17.29
+        }, 
+        {
+            "triplemean": 15.07333333333333
+        }
+    ], 
+    "Region": "region1", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b59474271"
+    }, 
+    "Radius": "radius30", 
+    "Day": 6
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 20.9
+        }, 
+        {
+            "mid": 22.99
+        }, 
+        {
+            "eve": 27.17
+        }, 
+        {
+            "triplemean": 23.68666666666667
+        }
+    ], 
+    "Region": "region5", 
+    "_id": {
+        "$oid": "51a3aaa7356ecd0b59474272"
+    }, 
+    "Radius": "radius30", 
+    "Day": 6
+}
+...

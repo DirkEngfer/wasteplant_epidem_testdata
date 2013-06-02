@@ -1,0 +1,50 @@
+{
+    "fineparticles": 7, 
+    "Region": "region1", 
+    "_id": "region1_radius10_0", 
+    "Radius": "radius10", 
+    "Day": 0
+}
+{
+    "fineparticles": 7, 
+    "Region": "region1", 
+    "_id": "region1_radius10_1", 
+    "Radius": "radius10", 
+    "Day": 1
+}
+{
+    "fineparticles": 7, 
+    "Region": "region1", 
+    "_id": "region1_radius10_10", 
+    "Radius": "radius10", 
+    "Day": 10
+}
+{
+    "fineparticles": 7, 
+    "Region": "region1", 
+    "_id": "region1_radius10_11", 
+    "Radius": "radius10", 
+    "Day": 11
+}
+{
+    "fineparticles": 14, 
+    "Region": "region1", 
+    "_id": "region1_radius10_12", 
+    "Radius": "radius10", 
+    "Day": 12
+}
+{
+    "fineparticles": 21, 
+    "Region": "region1", 
+    "_id": "region1_radius10_13", 
+    "Radius": "radius10", 
+    "Day": 13
+}
+{
+    "fineparticles": 28, 
+    "Region": "region1", 
+    "_id": "region1_radius10_14", 
+    "Radius": "radius10", 
+    "Day": 14
+}
+...
