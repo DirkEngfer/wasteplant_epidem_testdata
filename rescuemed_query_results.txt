@@ -1,0 +1,5 @@
+﻿{u'sulfurdioxid': [{u'mor': 69.3}, {u'mid': 76.23}, {u'eve': 90.09}, {u'triplemean': 78.54}], u'fineparticles': 77.0, u'PatientId': u'region5_radius10_2', u'Dose': 330, u'_id': ObjectId('51bd88a3356ecd18ce2a4b9d'), u'ref': [DBRef(u'additional_medication', u'region5_radius10_2')], u'Day': 7}
+{u'sulfurdioxid': [{u'mor': 69.3}, {u'mid': 76.23}, {u'eve': 90.09}, {u'triplemean': 78.54}], u'fineparticles': 77.0, u'PatientId': u'region5_radius10_3', u'Dose': 330, u'_id': ObjectId('51bd88a3356ecd18ce2a4b9e'), u'ref': [DBRef(u'additional_medication', u'region5_radius10_3')], u'Day': 7}
+{u'sulfurdioxid': [{u'mor': 69.3}, {u'mid': 76.23}, {u'eve': 90.09}, {u'triplemean': 78.54}], u'fineparticles': 77.0, u'PatientId': u'region5_radius10_5', u'Dose': 165, u'_id': ObjectId('51bd88a3356ecd18ce2a4ba0'), u'ref': [DBRef(u'additional_medication', u'region5_radius10_5')], u'Day': 7}
+{u'sulfurdioxid': [{u'mor': 69.3}, {u'mid': 76.23}, {u'eve': 90.09}, {u'triplemean': 78.54}], u'fineparticles': 77.0, u'PatientId': u'region5_radius10_6', u'Dose': 165, u'_id': ObjectId('51bd88a3356ecd18ce2a4ba1'), u'ref': [DBRef(u'additional_medication', u'region5_radius10_6')], u'Day': 7}
+...
