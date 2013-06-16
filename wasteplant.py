@@ -72,6 +72,7 @@ The data model integrates these environmental parameters with doses of rescue me
 
 '''
 
+
 from bson.dbref import DBRef
 from pymongo import MongoClient
 from pymongo.errors import ConnectionFailure
@@ -80,7 +81,7 @@ import os
 import sys
 from random import choice
 
-def make_item(key=None, ra=None, day=None, re=None):
+def make_item(key=None, ra=None, day=None, re=None, embedded_itemsL=None):
 
     if day % 2 == 0:
         dayfactor = 0.95
@@ -124,7 +125,7 @@ def make_item(key=None, ra=None, day=None, re=None):
        inidose = 50 * radiusD[ra] * regionsD[re]
        if radiusD[ra] == 2: patients_count = 5000
        else: patients_count = 2500
-       
+         
        for x in range(1,patients_count + 1):
           myran = choice([1,1,2,4])
           if myran == 4:
@@ -132,6 +133,10 @@ def make_item(key=None, ra=None, day=None, re=None):
           else:
              dose = inidose * myran
           dailydoseD = {'PatientId' : re + '_' + ra + '_' + str(x), 'Day' : day, 'Dose' : int(dose), 'ref' : [DBRef('additional_medication', re + '_' + ra + '_' + str(x))]}
+          for embedD in embedded_itemsL:
+             for mykey in embedD.keys():
+                dailydoseD[mykey] = embedD[mykey]
+          dbh.rescuemed.insert(dailydoseD, safe=True)
           resultL.append(dailydoseD)
        resultD = {key : resultL}
        
@@ -201,11 +206,13 @@ try:
                 newitem2 = make_item(key="fineparticles", day=d, ra=ra, re=re)
                 newitem2L.append(newitem2)
                 if d % 7 == 0:
-                   newitem3 = make_item(key="rescuemed_per_day", day=d, ra=ra, re=re)
-                   newitem3['sulfurdioxid'] = newitem1['sulfurdioxid']
-                   newitem3['fineparticles'] = newitem2['fineparticles']
-                   dbh.rescuemed.insert(newitem3, safe=True)
-                   #pr(newitem3)
+                   item_sulfD = {}
+                   item_fineD = {}
+                   item_sulfD['sulfurdioxid'] = newitem1['sulfurdioxid']
+                   item_fineD['fineparticles'] =newitem2['fineparticles']
+                   newitem3 = make_item(key="rescuemed_per_day", day=d, ra=ra, re=re, embedded_itemsL=[item_sulfD, item_fineD])
+                   
+                   if d == 7: pr(newitem3)
     dbh.sulfur.insert(newitem1L, safe=True)
     dbh.fineparticles.insert(newitem2L, safe=True)
         
