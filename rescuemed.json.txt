@@ -1,9 +1,533 @@
-﻿{'sulfurdioxid': [{'mor': 37.800000000000004}, {'mid': 41.580000000000005}, {'eve': 49.14000000000001}, {'triplemean': 42.84}], 'fineparticles': 63.0, 'PatientId': 'region3_radius20_1', 'Dose': 180, '_id': ObjectId('51bdcb46356ecd1da752a337'), 'ref': [DBRef('additional_medication', 'region3_radius20_1')], 'Day': 7}, 
-
-{'sulfurdioxid': [{'mor': 37.800000000000004}, {'mid': 41.580000000000005}, {'eve': 49.14000000000001}, {'triplemean': 42.84}], 'fineparticles': 63.0, 'PatientId': 'region3_radius20_2', 'Dose': 90, '_id': ObjectId('51bdcb46356ecd1da752a338'), 'ref': [DBRef('additional_medication', 'region3_radius20_2')], 'Day': 7}, 
-
-{'sulfurdioxid': [{'mor': 37.800000000000004}, {'mid': 41.580000000000005}, {'eve': 49.14000000000001}, {'triplemean': 42.84}], 'fineparticles': 63.0, 'PatientId': 'region3_radius20_3', 'Dose': 180, '_id': ObjectId('51bdcb46356ecd1da752a339'), 'ref': [DBRef('additional_medication', 'region3_radius20_3')], 'Day': 7}, 
-
-{'sulfurdioxid': [{'mor': 37.800000000000004}, {'mid': 41.580000000000005}, {'eve': 49.14000000000001}, {'triplemean': 42.84}], 'fineparticles': 63.0, 'PatientId': 'region3_radius20_4', 'Dose': 180, '_id': ObjectId('51bdcb46356ecd1da752a33a'), 'ref': [DBRef('additional_medication', 'region3_radius20_4')], 'Day': 7}, 
-
-{'sulfurdioxid': [{'mor': 37.800000000000004}, {'mid': 41.580000000000005}, {'eve': 49.14000000000001}, {'triplemean': 42.84}], 'fineparticles': 63.0, 'PatientId': 'region3_radius20_5', 'Dose': 90, '_id': ObjectId('51bdcb46356ecd1da752a33b'), 'ref': [DBRef('additional_medication', 'region3_radius20_5')], 'Day': 7}, 
+{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_1", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1e9c"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_1", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_2", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1e9d"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_2", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_3", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1e9e"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_3", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_4", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1e9f"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_4", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_5", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea0"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_5", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_6", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea1"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_6", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_7", 
+    "Dose": 0, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea2"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_7", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_8", 
+    "Dose": 0, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea3"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_8", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_9", 
+    "Dose": 0, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea4"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_9", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_10", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea5"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_10", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_11", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea6"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_11", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_12", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea7"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_12", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_13", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea8"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_13", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_14", 
+    "Dose": 180, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ea9"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_14", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_15", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1eaa"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_15", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_16", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1eab"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_16", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_17", 
+    "Dose": 180, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1eac"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_17", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_18", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1ead"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_18", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}{
+    "sulfurdioxid": [
+        {
+            "mor": 34.2
+        }, 
+        {
+            "mid": 37.62
+        }, 
+        {
+            "eve": 44.45999999999999
+        }, 
+        {
+            "triplemean": 38.76
+        }
+    ], 
+    "fineparticles": 9, 
+    "PatientId": "region3_radius20_19", 
+    "Dose": 90, 
+    "_id": {
+        "$oid": "51bdcae4356ecd1da74f1eae"
+    }, 
+    "ref": [
+        {
+            "$id": "region3_radius20_19", 
+            "$ref": "additional_medication"
+        }
+    ], 
+    "Day": 0
+}
