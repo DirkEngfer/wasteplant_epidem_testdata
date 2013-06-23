@@ -14,7 +14,7 @@
 
 docs = dbh.rescuemed.find({"fineparticles": {"$gt":70},"$where":"function() {var x = this.sulfurdioxid[0].mor;
  var y = this.sulfurdioxid[2].eve; var z = this.sulfurdioxid[3].triplemean;
- if ((z > 60 || y-x > 18) && this.Dose > 0) return this;}"})
+ if ((z > 60 || y-x > 18) && this.Dose > 0) return this;}"}, {"_id":0, "ref":0})
  
  
 // --> The query syntax can run with Python (Pymongo), too. Or directly run the query against your
