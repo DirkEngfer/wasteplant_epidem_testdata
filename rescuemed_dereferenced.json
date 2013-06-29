@@ -1,0 +1,81 @@
+{
+    "sulfurdioxid": [
+        {
+            "mor": 69.3
+        }, 
+        {
+            "mid": 76.23
+        }, 
+        {
+            "eve": 90.09
+        }, 
+        {
+            "triplemean": 78.54
+        }
+    ], 
+    "fineparticles": 77.0, 
+    "PatientId": "region5_radius10_10", 
+    "Dose": 165, 
+    "ref": [
+        {
+            "Dose": 25, 
+            "_id": "region5_radius10_10_7", 
+            "Day": 7, 
+            "Drug": "A", 
+            "PatientId": "region5_radius10_10"
+        }
+    ], 
+    "Day": 7
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 69.3
+        }, 
+        {
+            "mid": 76.23
+        }, 
+        {
+            "eve": 90.09
+        }, 
+        {
+            "triplemean": 78.54
+        }
+    ], 
+    "fineparticles": 77.0, 
+    "PatientId": "region5_radius10_11", 
+    "Dose": 165, 
+    "ref": [
+        0
+    ], 
+    "Day": 7
+}
+{
+    "sulfurdioxid": [
+        {
+            "mor": 69.3
+        }, 
+        {
+            "mid": 76.23
+        }, 
+        {
+            "eve": 90.09
+        }, 
+        {
+            "triplemean": 78.54
+        }
+    ], 
+    "fineparticles": 77.0, 
+    "PatientId": "region5_radius10_20", 
+    "Dose": 330, 
+    "ref": [
+        {
+            "Dose": 25, 
+            "_id": "region5_radius10_20_7", 
+            "Day": 7, 
+            "Drug": "A", 
+            "PatientId": "region5_radius10_20"
+        }
+    ], 
+    "Day": 7
+}

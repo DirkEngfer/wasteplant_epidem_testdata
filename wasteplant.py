@@ -132,7 +132,7 @@ def make_item(key=None, ra=None, day=None, re=None, embedded_itemsL=None):
              dose = 0
           else:
              dose = inidose * myran
-          dailydoseD = {'PatientId' : re + '_' + ra + '_' + str(x), 'Day' : day, 'Dose' : int(dose), 'ref' : [DBRef('additional_medication', re + '_' + ra + '_' + str(x))]}
+          dailydoseD = {'PatientId' : re + '_' + ra + '_' + str(x), 'Day' : day, 'Dose' : int(dose), 'ref' : [DBRef('additional_medication', re + '_' + ra + '_' + str(x) + '_' + str(day))]}
           for embedD in embedded_itemsL:
              for mykey in embedD.keys():
                 dailydoseD[mykey] = embedD[mykey]
